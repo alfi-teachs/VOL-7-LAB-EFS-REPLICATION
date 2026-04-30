@@ -101,7 +101,14 @@ sudo su
 ```bash
 mkdir data
 ```
+Go to EFS → Attach
+
+Copy Mount via DNS command
+
+Example:
+
 Now mount using DNS method:
+
 ```bash
 mount -t nfs4 -o nfsvers=4.1 fs-xxxxxx.efs.ap-south-1.amazonaws.com:/ data
 ```
